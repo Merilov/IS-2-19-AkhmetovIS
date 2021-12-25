@@ -19,4 +19,12 @@ namespace practika
             Application.Run(new Menu());
         }
     }
+    public class Connect
+    {
+        public string Connstring = "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
+        public string GetConne()
+        {
+            return Connstring;
+        }
+    }
 }
